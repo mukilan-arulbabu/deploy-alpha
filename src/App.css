@@ -1,0 +1,159 @@
+.logo-img {
+  /* width: 165px; */
+  width: 230px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+  background: url(/imgs/backimgs.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* #container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+.cover-img {
+  height: 85%;
+  width: 100%;
+}
+
+.carousel .slide {
+  background: none !important;
+}
+
+.covid-carousal {
+  /* height: 30%;
+  width: 100%;  */
+  background-image: url(/imgs/the-Coronavirus.jpg);
+  /* background-position: center right; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.background-overlay {
+  opacity: 0.5;
+  background: #19191d;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.background-overlay-imgs {
+  position: absolute;
+  text-align: center;
+}
+
+.appSlider-section {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  position: relative;
+  background-color: black;
+}
+.appSlider-section .carousel-root{
+    width: 100%;
+}
+.appSlider-section .carousel{
+  height: 100%;
+}
+.appSlider-section .slider-wrapper {
+  height: 100%;
+}
+
+.appSlides {
+  display:none;
+}
+
+.appText {
+  display: none;
+}
+
+.textCenter {
+  text-align: center;
+  padding: 0 20px !important;
+}
+
+.bg-custom {
+  background-color: black;
+  min-height: 64px;
+}
+
+.prod-image-container {
+    background-image: url(/imgs/VioletDefenseFrontPage.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-image-container {
+  background-image: url(/imgs/contact.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutus-image-container {
+  background-image: url(/imgs/backimgs.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.india-image-container {
+  background-image: url(/imgs/indian-flag.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paper-container-media {
+  margin: 30px;
+  /* padding: 15px; */
+}
+
+/* @media only screen and (max-width: 600px) {
+  .paper-container-media {
+    margin: 0px;
+  }
+} */
+
+.containerBuyNow {
+  position: relative;
+  margin: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .containerBuyNow {
+    margin: 0px 30px;
+  }
+}
