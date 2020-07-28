@@ -1,6 +1,8 @@
 import React from 'react';
 import { Typography, Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import ContactMailIcon from '@material-ui/icons/ContactMail';
+import PhoneIcon from '@material-ui/icons/Phone';
 
 const useStyles = makeStyles({
     root: {
@@ -49,7 +51,10 @@ const SecondPage = () => {
                         We&#39;d love to hear from you
                     </Typography>
                     <Typography variant="h6" gutterBottom className="textCenter">
-                        We’re here to help and answer any question you might have. Please reach us at sales@alphabiotech.in / 9176348700.
+                        We’re here to help and answer any question you might have.
+                    </Typography>
+                    <Typography variant="h6" gutterBottom className="textCenter">
+                        Please reach us at <ContactMailIcon /> sales@alphabiotech.in / <PhoneIcon /> 9176348700.
                     </Typography>
                 </Grid>
             </Grid>

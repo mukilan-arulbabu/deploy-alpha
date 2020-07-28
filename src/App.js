@@ -2,9 +2,11 @@ import React from 'react';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import './App.css';
 import Routes from './components/Routes';
-import 'fontsource-roboto';
 
 const theme = createMuiTheme({
+  typography: {
+    fontFamily: 'Josefin Sans, sans-serif',
+  },
   palette: {
     primary: {
       main: '#040404',
