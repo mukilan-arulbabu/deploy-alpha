@@ -70,7 +70,7 @@ const FourthPage = () => {
                 <Zoom>
                     <div className="paper-container-media">
                         <Typography variant="h6" gutterBottom className={classes.white}>
-                            <u>Alpha Cabinet 2.0</u>
+                            <b><u>Alpha Cabinet 2.0</u></b>
                         </Typography>
                         <Typography variant="body2" gutterBottom className={classes.content}>
                             The UV sterilization cabinet is an automated disinfectant chamber designed for disinfecting office belongings, personal and household items like mobile phones, laptops, tablets, purse, currency, covers of office files, etc less than 60secs.

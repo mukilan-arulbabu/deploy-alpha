@@ -23,7 +23,7 @@ const useStyles = makeStyles({
         },
     },
     img: {
-        width: '100%',
+        width: '55%',
         height: 'auto',
     },
     paperContainer: {
@@ -70,7 +70,7 @@ const SecondPage = () => {
                     <Zoom>
                     <div className="paper-container-media">
                         <Typography variant="h6" gutterBottom className={classes.white}>
-                            <u>Alpha Cabinet 1.0</u>
+                            <b><u>Alpha Cabinet 1.0</u></b>
                         </Typography>
                         <Typography variant="body2" gutterBottom className={classes.content}>
                             The UV sterilization cabinet is an automated disinfectant chamber designed for disinfecting office belongings, personal and household items like mobile phones, laptops, tablets, purse, currency, covers of office files, etc less than 60secs.
@@ -104,11 +104,11 @@ const SecondPage = () => {
                     </Zoom>
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <div className={"containerBuyNow"}>
-                        <img src="/imgs/new_prod4.jpg" alt="machine" className={classes.img} />
+                    <div className={"containerBuyNow"} style={{ textAlign: 'center' }}>
+                        <img src="/imgs/cabb.png" alt="machine" className={classes.img} />
                         <div className={classes.buyNow}>
                             <Typography variant="h4" style={{ paddingRight: '10px' }} className={classes.rs}>
-                            ₹13,500/-
+                            ₹11,500/-
                             </Typography>
                             <Button variant="contained" color="secondary" onClick={handleClickOpen}>
                                 Buy Now

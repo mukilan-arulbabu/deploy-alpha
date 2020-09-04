@@ -94,7 +94,7 @@ const Technology = () => {
                     </Typography>
                 </Grid>
             </div>
-            <Grid item xs={12} sm={4}>
+            {/* <Grid item xs={12} sm={4}>
                 <div className={classes.papers}>
                     <Paper elevation={3} className={classes.paperContent}>
                         <FileCopy style={{ fontSize: 40 }} />
@@ -110,7 +110,8 @@ const Technology = () => {
                     </Paper>
                 </div>
 
-            </Grid>
+            </Grid> */}
+            <Grid item xs={12} sm={2}></Grid>
             <Grid item xs={12} sm={4}>
                 <div className={classes.papers}>
                     <Paper elevation={3} className={classes.paperContent}>
@@ -143,6 +144,7 @@ const Technology = () => {
                     </Paper>
                 </div>
             </Grid>
+            <Grid item xs={12} sm={2}></Grid>
         </Grid>
         <Footer />
         </>

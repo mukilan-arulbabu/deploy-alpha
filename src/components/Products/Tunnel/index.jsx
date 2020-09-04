@@ -53,7 +53,7 @@ const SecondPage = () => {
                 <Zoom>
                     <div className="paper-container-media">
                         <Typography variant="h6" gutterBottom className={classes.white}>
-                            <u>Alpha Tunnel</u>
+                            <b><u>Alpha Tunnel</u></b>
                         </Typography>
                         <Typography variant="body2" gutterBottom className={classes.content}>
                         This can be used in sectors like Pharmaceutical, Dairy, Fresh produce, Food packaging, Horticulture, Airports etc., 

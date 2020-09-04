@@ -3,6 +3,7 @@ import { Typography, Grid, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { useHistory } from 'react-router-dom';
 import { Jello } from 'react-awesome-reveal';
+import { Image } from 'react-bootstrap';
 // import { Image  } from 'react-bootstrap';
 
 const useStyles = makeStyles({
@@ -46,8 +47,8 @@ const ThirdPage = () => {
             <Grid container className={classes.paperContainer}>
 
                 <Grid item xs={12} sm={6} className="textCenter">
-                    {/* <Image src="/imgs/22.jpg" thumbnail /> */}
-                    <img src="/imgs/new_prod4.jpg" alt="machine" className={classes.img} />
+                    <Image src="/imgs/hT.png" fluid />
+                    {/* <img src="/imgs/b2.png" alt="machine" className={classes.img} /> */}
                 </Grid>
                 <Grid item xs={12} sm={6} className="textCenter z-fade">
                 <Jello>

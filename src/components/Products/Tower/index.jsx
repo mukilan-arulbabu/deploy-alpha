@@ -70,7 +70,7 @@ const SecondPage = () => {
                 <Zoom>
                     <div className="paper-container-media">
                         <Typography variant="h6" gutterBottom className={classes.white}>
-                            <u>Alpha Tower</u>
+                            <b><u>Alpha Tower</u></b>
                         </Typography>
                         <Typography variant="body2" gutterBottom className={classes.content}>
                         An average disinfection cycle with Alpha tower is 10–20 minutes (depending on the size of the room). Time-saving of over 2 hours is achieved compared to other contactless disinfection technologies, while Alpha Tower comes with Advanced Fortified Technology (AFT) to ensure no humans are harmed with the UV-C rays and does not require supervision during operation.
@@ -89,7 +89,7 @@ const SecondPage = () => {
                             ► Advanced Fortified Technology (AFT) with motion sensors. The system switches off on accidental opening of room or if there is a human intervention
                             </Typography>
                             <Typography variant="body2" gutterBottom className={classes.content}>
-                            ► European Standard four UV-C Germicidal bulbs each with 25 watts power at 254 nm wavelength.
+                            ► European Standard four UV-C Germicidal bulbs each with 15 watts power at 254 nm wavelength.
                             </Typography>
                             <Typography variant="body2" gutterBottom className={classes.content}>
                             ► LED operation indicators and Stainless steel protective cage.
@@ -111,7 +111,7 @@ const SecondPage = () => {
                         <img src="/imgs/new_prod3.jpg" alt="machine" className={classes.img} />
                         <div className={classes.buyNow}>
                             <Typography variant="h4" style={{ paddingRight: '10px' }} className={classes.rs}>
-                                ₹19,500/-
+                                ₹17,500/-
                             </Typography>
                             <Button variant="contained" color="secondary" onClick={handleClickOpen}>
                                 Buy Now

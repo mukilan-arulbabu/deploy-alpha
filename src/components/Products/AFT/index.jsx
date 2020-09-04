@@ -15,7 +15,7 @@ const useStyles = makeStyles({
         fontWeight: '400',
     },
     img: {
-        width: '100%',
+        width: '80%',
         height: 'auto',
     },
     paperContainer: {
@@ -53,7 +53,7 @@ const SecondPage = () => {
                     <Zoom>
                         <div className="paper-container-media">
                             <Typography variant="h6" gutterBottom className={classes.white}>
-                                <u>Alpha AFT Fixtures</u>
+                                <b><u>Alpha AFT Fixtures</u></b>
                             </Typography>
                             <Typography variant="subtitle2" gutterBottom className={classes.white}>
                                 Disinfect with <i><b>“Advanced Fortified Technology (AFT)”</b></i> Fixtures
@@ -63,21 +63,30 @@ const SecondPage = () => {
                         </Typography>
                             <div className={classes.indentPoints}>
                                 <Typography variant="body2" gutterBottom className={classes.content}>
-                                ► Multiple mounting options: Ceiling fixtures, hard lid ceilings, or wall mounted.
+                                ► Multiple mounting options: Ceiling fixtures, hard lid ceilings or wall mounted
                                 </Typography>
                                 <Typography variant="body2" gutterBottom className={classes.content}>
-                                ► Scheduled cycles ensure effective killing of bacteria, fungi, and viruses in a short span when the space is unoccupied.
+                                ► 2x15W - European Standard Germicidal UV-C bulb. High UV-C radiance at 254nm
                                 </Typography>
                                 <Typography variant="body2" gutterBottom className={classes.content}>
                                 ► Motion sensors programmed with AFT for automatic shut off to prevent unnecessary UV exposure.
+                                </Typography>
+                                <Typography variant="body2" gutterBottom className={classes.content}>
+                                ► 15 minutes Auto-disinfection for every two hours
+                                </Typography>
+                                <Typography variant="body2" gutterBottom className={classes.content}>
+                                ► Seamlessly working 24X7, with no staff intervention required
+                                </Typography>
+                                <Typography variant="body2" gutterBottom className={classes.content}>
+                                ► High quality reflector to distribute UV-C light in all directions
                                 </Typography>
                             </div>
                         </div>
                     </Zoom>
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <div className={"containerBuyNow"}>
-                        <img src="/imgs/new_prod1.jpg" alt="machine" className={classes.img} />
+                    <div className={"containerBuyNow"} style={{ textAlign: 'center' }}>
+                        <img src="/imgs/aft1.png" alt="machine" className={classes.img} />
                         <div className={classes.buyNow}>
                             {/* <Typography variant="h4" gutterBottom className={classes.content}>
                                 Rs.

@@ -39,6 +39,12 @@ export default function HomePage() {
         <SecondComponent />
       </div>
       <div className={classes.slidePad}>
+        <EighthComponent />
+      </div>
+      <div className={classes.slidePad}>
+        <SixthComponent />
+      </div>
+      <div className={classes.slidePad}>
         <ThirdComponent />
       </div>
       <div className={classes.slidePad}>
@@ -48,14 +54,9 @@ export default function HomePage() {
         <FifthComponent />
       </div>
       <div className={classes.slidePad}>
-        <SixthComponent />
-      </div>
-      <div className={classes.slidePad}>
         <SeventhComponent />
       </div>
-      <div className={classes.slidePad}>
-        <EighthComponent />
-      </div>
+      
       <Footer />
     </>
   );
