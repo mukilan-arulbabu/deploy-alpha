@@ -52,7 +52,7 @@ const AboutUs = () => {
                 <Grid item xs={12} sm={12} className={classes.paper}>
                     <Bounce>
                         <Typography variant="h5" gutterBottom className={classes.head} >
-                            Why Alpha Biotech?
+                            <b>Why Alpha Biotech?</b>
                         </Typography>
                     </Bounce>
                 </Grid>
@@ -62,7 +62,7 @@ const AboutUs = () => {
                             <div className={classes.tile} />
                             <div>
                                 <Typography variant="h6" gutterBottom className={classes.header} >
-                                    Highly Qualified Research Team
+                                    <b>Highly Qualified Research Team</b>
                                 </Typography>
                                 <Typography variant="body2" gutterBottom className={classes.body} >
                                     <b>Dr.Renuka Kandayapillai</b>, Senior Research fellow, University of Washington – drives our team efficiently by committing to provide organizational excellence.
@@ -77,7 +77,7 @@ const AboutUs = () => {
                             <div className={classes.tile} />
                             <div>
                         <Typography variant="h6" gutterBottom className={classes.header} >
-                            Quick Response
+                            <b>Quick Response</b>
                     </Typography>
                         <Typography variant="body2" gutterBottom className={classes.body} >
                             You don’t need to wait anymore to hear back from us. Our support team will assist you immediately.
@@ -92,7 +92,7 @@ const AboutUs = () => {
                             <div className={classes.tile} />
                             <div>
                                 <Typography variant="h6" gutterBottom className={classes.header} >
-                                    Advanced Technology
+                                    <b>Advanced Technology</b>
                                 </Typography>
                                 <Typography variant="body2" gutterBottom className={classes.body} >
                                     We’ve packed an innovative, UV-C light with Advanced Fortified Technology (AFT) into solutions to disinfect Anything, Any Room, Any Time. We are the only service provider in the city with the ability to provide whole room coverage of full spectrum UV with proper layout with Fixtures in the ceiling or on the wall with automated human detection.
@@ -109,7 +109,7 @@ const AboutUs = () => {
                             <div className={classes.tile} />
                             <div>
                         <Typography variant="h6" gutterBottom className={classes.header} >
-                            End to End Solution with Design Centre
+                            <b>End to End Solution with Design Centre</b>
                     </Typography>
                         <Typography variant="body2" gutterBottom className={classes.body} >
                             We do site surveys and provide complete solutions with proper layout depending on building requirements for corporate and big facilities.
@@ -125,7 +125,7 @@ const AboutUs = () => {
                             <div className={classes.tile} />
                             <div>
                         <Typography variant="h6" gutterBottom className={classes.header} >
-                            State of Art Manufacturing facility
+                            <b>State of Art Manufacturing facility</b>
                     </Typography>
                         <Typography variant="body2" gutterBottom className={classes.body} >
                             We do not outsource. Manufactured wholly in-house with our state of art production unit facility.
@@ -140,7 +140,7 @@ const AboutUs = () => {
                             <div className={classes.tile} />
                             <div>
                         <Typography variant="h6" gutterBottom className={classes.header} >
-                            Made in India - Proud Indeed !
+                            <b>Made in India - Proud Indeed !</b>
                         </Typography>
                             </div>
                         </div>

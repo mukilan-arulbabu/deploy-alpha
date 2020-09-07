@@ -73,7 +73,7 @@ const SecondPage = () => {
                     <Zoom>
                         <div className="paper-container-media">
                             <Typography variant="h6" gutterBottom className={classes.white}>
-                                <b><u>Crips Air - Advanced Air Purification System</u></b>
+                                <b><u>Crisp Air - Advanced Air Purification System</u></b>
                             </Typography>
                             <Typography variant="body2" gutterBottom className={classes.content}>
                                 Crisp Air disinfection unit has ability to Visualize and control your air – anywhere,anytime.With a dual air flow system, has a boosted clean air delivery rate up to 250 m3/hr against allergens, harmful gases, particles, bacteria & viruses. Designed with a multi-stage active filtration system, which captures up 99.97% of particles that pass through the filter as small as 0.3 microns – the size of most common airborne allergens,like pollen,dust,pet dander and more.
@@ -118,7 +118,7 @@ const SecondPage = () => {
                         <img src="/imgs/air3_png.png" alt="machine" className={classes.img} />
                         <div className={classes.buyNow}>
                             <Typography variant="h4" style={{ paddingRight: '10px' }} className={classes.rs}>
-                            ₹10,800/-
+                            ₹11,800/-
                             </Typography>
                             <Button variant="contained" color="secondary" onClick={handleClickOpen}>
                                 Buy Now
