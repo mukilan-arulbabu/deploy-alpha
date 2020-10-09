@@ -38,6 +38,8 @@ class Imgs extends React.Component {
                 this.setState({ imgCnt: 2 });
             } else if (this.state.imgCnt === 2) {
                 this.setState({ imgCnt: 3 });
+            } else if (this.state.imgCnt === 3) {
+                this.setState({ imgCnt: 4 });
             } else {
                 this.setState({ imgCnt: 1 });
             }
@@ -67,37 +69,42 @@ class Imgs extends React.Component {
                         </Hidden>
                         {imgCnt === 1 && <div className="background-overlay-cover no1">
                             <LightSpeed>
-                                <Typography variant="h5" gutterBottom className={classes.header}>
-                                    Food and Packages
-                        </Typography>
-                                <Typography variant="body2" gutterBottom className={classes.content}>
-                                    ► Fruits and Vegetables
-                        </Typography>
-                                <Typography variant="body2" gutterBottom className={classes.content}>
-                                    ► Groceries and Milk Packets
-                        </Typography>
-                                <Typography variant="body2" gutterBottom className={classes.content}>
-                                    ► Food Takeaway Packets
-                        </Typography>
-                                <Typography variant="body2" gutterBottom className={classes.content}>
-                                    ► Online Delivery PAckages
-                        </Typography>
+                                <Image src="/imgs/1x1.png" fluid />
                             </LightSpeed>
                         </div>}
                         {imgCnt === 2 && <div className="background-overlay-cover no2">
                             <LightSpeed>
                                 <Typography variant="h5" gutterBottom className={classes.header}>
-                                    Baby Products
-                        </Typography>
+                                    Food and Packages
+                                </Typography>
                                 <Typography variant="body2" gutterBottom className={classes.content}>
-                                    ► Bottles & Napkins
-                        </Typography>
+                                    ► Fruits and Vegetables
+                                </Typography>
                                 <Typography variant="body2" gutterBottom className={classes.content}>
-                                    ► Toys
-                        </Typography>
+                                    ► Groceries and Milk Packets
+                                </Typography>
+                                <Typography variant="body2" gutterBottom className={classes.content}>
+                                    ► Food Takeaway Packets
+                                </Typography>
+                                <Typography variant="body2" gutterBottom className={classes.content}>
+                                    ► Online Delivery PAckages
+                                </Typography>
                             </LightSpeed>
                         </div>}
                         {imgCnt === 3 && <div className="background-overlay-cover no3">
+                            <LightSpeed>
+                                <Typography variant="h5" gutterBottom className={classes.header}>
+                                    Baby Products
+                                </Typography>
+                                <Typography variant="body2" gutterBottom className={classes.content}>
+                                    ► Bottles & Napkins
+                                </Typography>
+                                <Typography variant="body2" gutterBottom className={classes.content}>
+                                    ► Toys
+                                </Typography>
+                            </LightSpeed>
+                        </div>}
+                        {imgCnt === 4 && <div className="background-overlay-cover no3">
                             <LightSpeed>
                                 <Typography variant="h5" gutterBottom className={classes.header}>
                                     Electronics & Personal Items
