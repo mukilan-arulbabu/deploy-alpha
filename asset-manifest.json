@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/deploy-alpha/static/css/main.c5af5479.chunk.css",
+    "main.js": "/deploy-alpha/static/js/main.37d24954.chunk.js",
+    "main.js.map": "/deploy-alpha/static/js/main.37d24954.chunk.js.map",
+    "runtime-main.js": "/deploy-alpha/static/js/runtime-main.5db73b08.js",
+    "runtime-main.js.map": "/deploy-alpha/static/js/runtime-main.5db73b08.js.map",
+    "static/css/2.8128b923.chunk.css": "/deploy-alpha/static/css/2.8128b923.chunk.css",
+    "static/js/2.5218b6a3.chunk.js": "/deploy-alpha/static/js/2.5218b6a3.chunk.js",
+    "static/js/2.5218b6a3.chunk.js.map": "/deploy-alpha/static/js/2.5218b6a3.chunk.js.map",
+    "index.html": "/deploy-alpha/index.html",
+    "precache-manifest.dcbc009822a595c0ec832ead98bfff0b.js": "/deploy-alpha/precache-manifest.dcbc009822a595c0ec832ead98bfff0b.js",
+    "service-worker.js": "/deploy-alpha/service-worker.js",
+    "static/css/2.8128b923.chunk.css.map": "/deploy-alpha/static/css/2.8128b923.chunk.css.map",
+    "static/css/main.c5af5479.chunk.css.map": "/deploy-alpha/static/css/main.c5af5479.chunk.css.map",
+    "static/js/2.5218b6a3.chunk.js.LICENSE.txt": "/deploy-alpha/static/js/2.5218b6a3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/deploy-alpha/static/media/roboto-latin-900-normal.bb1e4dc6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5db73b08.js",
+    "static/css/2.8128b923.chunk.css",
+    "static/js/2.5218b6a3.chunk.js",
+    "static/css/main.c5af5479.chunk.css",
+    "static/js/main.37d24954.chunk.js"
+  ]
+}
