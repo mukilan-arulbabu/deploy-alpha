@@ -8,11 +8,35 @@ html {
 }
 
 body { 
-  background: url(/imgs/backimgs.jpg) no-repeat center center fixed; 
+  background: url(./imgs/backimgs.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.techHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  background-image: url(./imgs/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.corona-techHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  background-image: url(./imgs/the-Coronavirus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
 }
 
 /* #container {
@@ -38,7 +62,7 @@ body {
 .covid-carousal {
   /* height: 30%;
   width: 100%;  */
-  background-image: url(/imgs/the-Coronavirus.jpg);
+  background-image: url(./imgs/the-Coronavirus.jpg);
   /* background-position: center right; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,7 +129,7 @@ body {
 }
 
 .prod-image-container {
-    background-image: url(/imgs/VioletDefenseFrontPage.jpg);
+    background-image: url(./imgs/VioletDefenseFrontPage.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +140,7 @@ body {
 }
 
 .contact-image-container {
-  background-image: url(/imgs/contact.jpg);
+  background-image: url(./imgs/contact.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,7 +151,7 @@ body {
 }
 
 .aboutus-image-container {
-  background-image: url(/imgs/backimgs.jpg);
+  background-image: url(./imgs/backimgs.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,7 +162,7 @@ body {
 }
 
 .india-image-container {
-  background-image: url(/imgs/indian-flag.jpg);
+  /* background-image: url(./imgs/indian-flag.jpg); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

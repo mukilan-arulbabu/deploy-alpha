@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { useHistory } from 'react-router-dom';
 import { Jello } from 'react-awesome-reveal';
 // import { Image  } from 'react-bootstrap';
+import NProd from '../../../imgs/new_prod1.jpg';
 
 const useStyles = makeStyles((theme) =>({
     root: {
@@ -65,7 +66,7 @@ const SecondPage = () => {
                 </Grid> */}
                 <Grid item xs={12} sm={6} className="textCenter">
                     {/* <Image src="/imgs/cafeteria.png" thumbnail /> */}
-                    <img src="/imgs/new_prod1.jpg" alt="cafeteria" className={classes.img} />
+                    <img src={NProd} alt="cafeteria" className={classes.img} />
                 </Grid>
                 <Grid item xs={12} sm={6} className="textCenter z-fade">
                     <Jello>

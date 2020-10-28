@@ -2,8 +2,9 @@ import React from 'react';
 import { Typography, Grid, Paper, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { useHistory } from 'react-router-dom';
-import { FileCopy, HowToReg, BlurOn } from '@material-ui/icons';
+import { HowToReg, BlurOn } from '@material-ui/icons';
 import Footer from "../Footer";
+import dna from '../../imgs/dna.png';
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -14,17 +15,6 @@ const useStyles = makeStyles(() => ({
         alignItems: 'center',
         background: '#f0f8ff96'
         // padding: '0 50px'
-    },
-    techHeader: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        minHeight: '140px',
-        backgroundImage: 'url(/imgs/the-Coronavirus.jpg)',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        color: 'white',
-        position: 'relative',
     },
     content: {
         fontWeight: '400',
@@ -67,7 +57,7 @@ const Technology = () => {
         <>
         <Grid container style={{ justifyContent: "center" }}>
             <Grid item xs={12}>
-                <div className={classes.techHeader}>
+                <div className="corona-techHeader">
                     <div className="background-overlay" />
                     <Typography variant="h3" gutterBottom className={classes.zInx}>
                         TECHNOLOGY
@@ -82,7 +72,7 @@ const Technology = () => {
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} className="textCenter">
-                    <img src="/imgs/dna.png" alt="dna" />
+                    <img src={dna} alt="dna" />
                     <Typography variant="body2" gutterBottom className={classes.content}>
                     The ultraviolet energy triggers the formation of specific thymine or cytosine dimers in DNA and uracil dimers in RNA, which causes inactivation of microbes by causing mutations and/or cell death and failure to reproduce. UV light has years of research in clinical settings proving its efficacy and safety for eliminating some of the most challenging pathogens in our everyday environments including Novel coronavirus, MRSA, Norovirus, bacteria, and other harmful germs etc. Infection control experts agree that UV is a crucial tool in the battle to reduce Healthcare Associated Infections (HAI’s). A direct approach to limit airborne viral transmissions is to inactivate them within a short time of their production, Alpha Biotech uses a powerful germicidal UV-C, typically at 254 nm to optimize their germ-killing efficiency.
                     </Typography>

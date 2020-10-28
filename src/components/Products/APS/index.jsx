@@ -3,6 +3,7 @@ import { Typography, Grid, Button, Dialog, DialogTitle,
     DialogContent, DialogContentText, DialogActions } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Zoom } from 'react-awesome-reveal';
+import air3_png from '../../../imgs/air3_png.png';
 
 const useStyles = makeStyles({
     root: {
@@ -115,7 +116,7 @@ const SecondPage = () => {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <div className={"containerBuyNow"} style={{ textAlign: 'center' }}>
-                        <img src="/imgs/air3_png.png" alt="machine" className={classes.img} />
+                        <img src={air3_png} alt="machine" className={classes.img} />
                         <div className={classes.buyNow}>
                             <Typography variant="h4" style={{ paddingRight: '10px' }} className={classes.rs}>
                             ₹11,800/-

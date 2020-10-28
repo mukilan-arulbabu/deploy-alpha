@@ -2,6 +2,9 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import { Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import Img4 from '../../../imgs/4.png';
+import Img5 from '../../../imgs/5.png';
+import Img6 from '../../../imgs/6.png';
 
 const useStyles = makeStyles({
     white: {
@@ -20,19 +23,19 @@ const Corosal = () => {
                 <Typography variant="h3" gutterBottom className={classes.white}>
                     DISINFECT ANYTHING
                     </Typography>
-                <img className="appSlides" src="/imgs/4.png" alt="img1" style={{ height: 'auto', width: '100%' }} />
+                <img className="appSlides" src={Img4} alt="img1" style={{ height: 'auto', width: '100%' }} />
             </div>
             <div className="background-overlay-imgs">
                 <Typography variant="h3" gutterBottom className={classes.white}>
                     DISINFECT ANYTIME
                     </Typography>
-                <img className="appSlides" src="/imgs/5.png" alt="img1" style={{ height: 'auto', width: '100%' }} />
+                <img className="appSlides" src={Img5} alt="img1" style={{ height: 'auto', width: '100%' }} />
             </div>
             <div className="background-overlay-imgs">
                 <Typography variant="h3" gutterBottom className={classes.white}>
                     DISINFECT ANYWHERE
                     </Typography>
-                <img className="appSlides" src="/imgs/6.png" alt="img1" style={{ height: 'auto', width: '100%' }} />
+                <img className="appSlides" src={Img6} alt="img1" style={{ height: 'auto', width: '100%' }} />
             </div>
         </Carousel>
     )

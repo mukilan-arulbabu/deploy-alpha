@@ -3,6 +3,8 @@ import { Typography, Grid, Button, Dialog, DialogTitle,
     DialogContent, DialogContentText, DialogActions } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Zoom } from 'react-awesome-reveal';
+import Cabinet_Series_SpecFinal from '../../../imgs/Cabinet_Series_SpecFinal.pdf';
+import new_prod5 from '../../../imgs/new_prod5.jpg';
 
 const useStyles = makeStyles({
     root: {
@@ -95,7 +97,7 @@ const FifthPage = () => {
                             ► Automatically lights get off if door is opened during sterilization.
                             </Typography>
                         </div>
-                        <a href="/imgs/Cabinet_Series_SpecFinal.pdf" download>
+                        <a href={Cabinet_Series_SpecFinal} download>
                             <Button variant="contained" color="secondary">
                                 Download Spec
                             </Button>
@@ -105,7 +107,7 @@ const FifthPage = () => {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <div className={"containerBuyNow"}>
-                        <img src="/imgs/new_prod5.jpg" alt="machine" className={classes.img} />
+                        <img src={new_prod5} alt="machine" className={classes.img} />
                         <div className={classes.buyNow}>
                             <Typography variant="h4" style={{ paddingRight: '10px' }} className={classes.rs}>
                                 ₹26,500/-

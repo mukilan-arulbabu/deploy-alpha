@@ -3,6 +3,7 @@ import { Typography, Grid, Button } from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { Zoom } from 'react-awesome-reveal';
+import new_prod2 from '../../../imgs/new_prod2.jpg';
 
 const useStyles = makeStyles({
     root: {
@@ -78,7 +79,7 @@ const SecondPage = () => {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <div className={"containerBuyNow"}>
-                        <img src="/imgs/new_prod2.jpg" alt="machine" className={classes.img} />
+                        <img src={new_prod2} alt="machine" className={classes.img} />
                         <div className={classes.buyNow}>
                             <Button variant="contained" color="secondary" onClick={() => history.push('/ContactUs')}>
                                 Enquire Now

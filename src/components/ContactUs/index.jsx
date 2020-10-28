@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Jello } from 'react-awesome-reveal';
 import { Phone, ContactMail } from '@material-ui/icons';
 import { Image } from 'react-bootstrap';
+import Alpha from '../../imgs/alpha.png';
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -24,17 +25,6 @@ const useStyles = makeStyles(() => ({
         fontSize: '25px',
         fontWeight: 600,
     },
-    techHeader: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        minHeight: '140px',
-        backgroundImage: 'url(/imgs/contact.jpg)',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        color: 'white',
-        position: 'relative',
-    },
     footLogo: {
         display: 'flex',
         justifyContent: 'center',
@@ -47,7 +37,7 @@ const Contact = () => {
     const classes = useStyles();
     return (
         <div>
-            <div id="cont-us" className={classes.techHeader}>
+            <div id="cont-us" className="techHeader">
                 <div className="background-overlay" />
                 <Jello>
                     <Typography variant="h3" gutterBottom className={classes.zInx}>
@@ -73,7 +63,7 @@ const Contact = () => {
             </Grid>
             <Hidden smUp>
                 <div className={classes.footLogo}>
-                    <Image src="/imgs/alpha.png" fluid />
+                    <Image src={Alpha} fluid />
                 </div>
             </Hidden>
         </div>

@@ -3,6 +3,8 @@ import { Typography, Grid, Button, Dialog, DialogTitle,
     DialogContent, DialogContentText, DialogActions } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Zoom } from 'react-awesome-reveal';
+import Tower_Spec from '../../../imgs/Tower_Spec.pdf';
+import new_prod3 from '../../../imgs/new_prod3.jpg';
 
 const useStyles = makeStyles({
     root: {
@@ -98,7 +100,7 @@ const SecondPage = () => {
                             ► Start delay of 10 seconds.
                             </Typography>
                         </div>
-                        <a href="/imgs/Tower_Spec.pdf" download>
+                        <a href={Tower_Spec} download>
                             <Button variant="contained" color="secondary">
                                 Download Spec
                             </Button>
@@ -108,7 +110,7 @@ const SecondPage = () => {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <div className={"containerBuyNow"}>
-                        <img src="/imgs/new_prod3.jpg" alt="machine" className={classes.img} />
+                        <img src={new_prod3} alt="machine" className={classes.img} />
                         <div className={classes.buyNow}>
                             <Typography variant="h4" style={{ paddingRight: '10px' }} className={classes.rs}>
                                 ₹17,500/-

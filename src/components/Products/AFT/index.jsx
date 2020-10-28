@@ -3,6 +3,7 @@ import { Typography, Grid, Button } from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { Zoom } from 'react-awesome-reveal';
+import Aft1 from '../../../imgs/aft1.png';
 
 const useStyles = makeStyles({
     root: {
@@ -86,7 +87,7 @@ const SecondPage = () => {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <div className={"containerBuyNow"} style={{ textAlign: 'center' }}>
-                        <img src="/imgs/aft1.png" alt="machine" className={classes.img} />
+                        <img src={Aft1} alt="machine" className={classes.img} />
                         <div className={classes.buyNow}>
                             {/* <Typography variant="h4" gutterBottom className={classes.content}>
                                 Rs.

@@ -3,6 +3,10 @@ import { Grid, Typography, Hidden } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import { Image } from 'react-bootstrap';
 import { LightSpeed, Zoom } from 'react-awesome-reveal';
+import Bm1 from '../../../imgs/b1m.png';
+import Bm2 from '../../../imgs/b1.png';
+import Bm3 from '../../../imgs/1x1.png';
+import Bm4 from '../../../imgs/b2.png';
 
 const styles = () => ({
     root: {
@@ -59,17 +63,17 @@ class Imgs extends React.Component {
                     <Grid item xs={12} sm={8} style={{ position: 'relative' }}>
                         <Hidden smUp>
                             <Zoom>
-                                <Image src="/imgs/b1m.png" fluid />
+                                <Image src={Bm1} fluid />
                             </Zoom>
                         </Hidden>
                         <Hidden smDown>
                             <Zoom>
-                                <Image src="/imgs/b1.png" fluid />
+                                <Image src={Bm2} fluid />
                             </Zoom>
                         </Hidden>
                         {imgCnt === 1 && <div className="background-overlay-cover no1">
                             <LightSpeed>
-                                <Image src="/imgs/1x1.png" fluid />
+                                <Image src={Bm3} fluid />
                             </LightSpeed>
                         </div>}
                         {imgCnt === 2 && <div className="background-overlay-cover no2">
@@ -125,7 +129,7 @@ class Imgs extends React.Component {
                         </div>}
                     </Grid>
                     <Grid item xs={12} sm={4}>
-                        <Image src="/imgs/b2.png" fluid />
+                        <Image src={Bm4} fluid />
                     </Grid>
                 </Grid>
             </div>
